@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+/* =========================
+   PLANORA DESIGN SYSTEM
+   ========================= */
+
+:root {
+  /* Primary Color */
+  --primary-color: #2563eb;
+  /* استخدامه:
+     - Primary Buttons
+     - Active Sidebar Item
+     - Active Navbar Link
+     - Icons الأساسية
+     - Links
+     - Focus على Inputs
+  */
+
+  /* Secondary Color */
+  --secondary-color: #14b8a6;
+  /* استخدامه:
+     - Badges
+     - Progress Bars
+     - Charts
+     - Secondary Buttons
+     - Highlights
+  */
+
+  /* Background */
+  --background-color: #ecf5ff;
+  /* استخدامه:
+     - خلفية الموقع بالكامل
+     - Dashboard Background
+  */
+
+  /* Cards */
+  --card-color: #ffffff;
+  /* استخدامه:
+     - Cards
+     - Navbar
+     - Sidebar
+     - Forms
+     - Modals
+     - Dropdowns
+  */
+
+  /* Primary Text */
+  --text-primary: #162443;
+  /* استخدامه:
+     - Headings
+     - Titles
+     - Main Text
+     - Menu Titles
+  */
+
+  /* Secondary Text */
+  --text-secondary: #64748b;
+  /* استخدامه:
+     - Description
+     - Paragraph
+     - Placeholder
+     - Date
+     - Time
+     - Labels
+  */
+
+  /* Success */
+  --success-color: #22c55e;
+  /* Completed Tasks
+   Success Messages
+*/
+
+  /* Warning */
+  --warning-color: #f59e0b;
+  /* Pending Tasks
+   Deadlines
+*/
+
+  /* Error */
+  --error-color: #ef4444;
+  /* Delete Button
+   Errors
+   Validation
+*/
+
+  /* Border */
+  --border-color: #e2e8f0;
+  /* Inputs
+   Cards
+   Tables
+   Divider
+*/
+}
+
+/* ////////////////////////////////////////////// */
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* /////////////////////////////////////////////// */
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE و Edge القديم */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome و Safari */
+}
